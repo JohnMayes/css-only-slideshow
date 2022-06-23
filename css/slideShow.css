@@ -25,7 +25,7 @@
   opacity: 0;
   z-index: 0;
   backface-visibility: hidden;
-  animation: imageAnimation 42s linear infinite 0s;
+  animation: imageAnimation 42s linear infinite 200ms;
 }
 
 .title-container {
@@ -50,12 +50,12 @@
 }
 
 .title-animation-down {
-  animation: titleAnimationDown 42s linear infinite 0s;
+  animation: titleAnimationDown 42s linear infinite 200ms;
   opacity: 0;
 }
 
 .title-animation-fade {
-  animation: titleAnimationFade 42s linear infinite 0s;
+  animation: titleAnimationFade 42s linear infinite 200ms;
   opacity: 0;
 }
 
@@ -68,12 +68,12 @@
 }
 
 .text-animation-down {
-  animation: textAnimationDown 42s linear infinite 0s;
+  animation: textAnimationDown 42s linear infinite 200ms;
   opacity: 0;
 }
 
 .text-animation-fade {
-  animation: textAnimationFade 42s linear infinite 0s;
+  animation: textAnimationFade 42s linear infinite 200ms;
   opacity: 0;
 }
 
