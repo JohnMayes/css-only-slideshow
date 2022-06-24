@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro&family=Smythe&display=swap'); */
-
 .c-mm {
   --h: 9;
   --w: 16;
@@ -344,42 +342,4 @@
   100% {
     opacity: 0;
   }
-}
-
-/* FROM CSS-ICONS-PEN, slightly modified */
-[data-css-icon] {
-  --icon-size: 1.5rem;
-  --size: 3.75rem;
-  --bdrs: 50%;
-  --c: currentcolor;
-  align-items: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-}
-[data-css-icon] i {
-  align-items: center;
-  border-radius: var(--bdrs);
-  box-sizing: content-box;
-  display: inline-flex;
-  height: var(--size);
-  justify-content: center;
-  position: relative;
-  width: var(--size);
-}
-[data-css-icon] i::after {
-  --cpa: none;
-  --h: var(--icon-size);
-  --w: var(--icon-size);
-  background-color: var(--bgcl);
-  clip-path: var(--cpa);
-  content: '';
-  display: inline-block;
-  height: var(--h);
-  margin: 0;
-  width: var(--w);
-}
-[data-css-icon*='play'] i::after {
-  --bgcl: var(--c);
-  --cpa: polygon(16% 0%, 15% 100%, 100% 50%);
 }
