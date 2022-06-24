@@ -13,7 +13,7 @@
       type="text/css"
       href="css/rootStyles.css"
     />
-    <link rel="stylesheet" type="text/css" href="css/slideShow.css" />
+    <link rel="stylesheet" type="text/css" href="css/refactor.css" />
   </head>
   <body>
     <header>
@@ -24,94 +24,127 @@
             alt="COOKE FURNITURE"
         /></a>
         <span class="text-big">CSS only hero image slideshow</span>
-        <a href="refactor.html">REFACTOR</a>
       </nav>
     </header>
     <main>
-      <div class="slideshow-container">
-        <div class="slideshow">
-          <div>
-            Image 01
-            <section class="title-container">
-              <h3 class="title-animation-down">
-                Lorem, ipsum dolor sit.
-              </h3>
-              <p class="text-animation-down">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </section>
-          </div>
-          <div>
-            Image 02
-            <section class="title-container">
-              <h3 class="title-animation-down">
-                Lorem, ipsum dolor.
-              </h3>
-              <p class="text-animation-down">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </section>
-          </div>
-          <div>
-            Image 03
-            <section class="title-container">
-              <h3 class="title-animation-fade">
-                Lorem ipsum dolor sit amet.
-              </h3>
-              <p class="text-animation-fade">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </section>
-          </div>
-          <div>
-            Image 04
-            <section class="title-container">
-              <h3 class="title-animation-down">
-                Lorem, ipsum dolor.
-              </h3>
-              <p class="text-animation-down">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </section>
-          </div>
-          <div>
-            Image 05
-            <section class="title-container">
-              <h3 class="title-animation-fade">
-                Lorem, ipsum dolor.
-              </h3>
-              <p class="text-animation-fade">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </section>
-          </div>
-          <div>
-            Image 06
-            <section class="title-container">
-              <h3 class="title-animation-down">
-                Lorem, ipsum dolor.
-              </h3>
-              <p class="text-animation-down">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </section>
-          </div>
-          <div>
-            Image 07
-            <section class="title-container">
-              <h3 class="title-animation-fade">
-                Lorem, ipsum dolor.
-              </h3>
-              <p class="text-animation-fade">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </section>
-          </div>
+      <div class="c-mm">
+        <div class="c-mm__inner">
+          <figure
+            class="c-mm__frame"
+            style="--animn: kenburns-right; --index: 0"
+          >
+            <img class="c-mm__img" src="images/1.jpg" />
+            <figcaption class="c-mm__cap" data-caption="bottom left">
+              <div class="cap__container">
+                <h1 style="--animn: titleAnimationDown">
+                  Three what if we have a long title will it overflow
+                </h1>
+                <p style="--animn: textAnimationDown">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="c-mm__frame"
+            style="--animn: kenburns-bottom-right; --index: 1"
+          >
+            <img class="c-mm__img" src="images/2.jpg" />
+            <figcaption class="c-mm__cap" data-caption="left">
+              <div class="cap__container">
+                <h1 style="--animn: titleAnimationFade">
+                  Two two two two
+                </h1>
+                <p style="--animn: textAnimationFade">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="c-mm__frame"
+            style="--animn: kenburns-bottom-left; --index: 2"
+          >
+            <img class="c-mm__img" src="images/3.jpg" />
+            <figcaption class="c-mm__cap" data-caption="bottom left">
+              <div class="cap__container">
+                <h1 style="--animn: titleAnimationDown">
+                  Three what if we have a long title will it overflow
+                </h1>
+                <p style="--animn: textAnimationDown">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="c-mm__frame"
+            style="--animn: kenburns-top; --index: 3"
+          >
+            <img class="c-mm__img" src="images/4.jpg" />
+            <figcaption class="c-mm__cap" data-caption="top left">
+              <div class="cap__container">
+                <h1 style="--animn: titleAnimationFade">Four</h1>
+                <p style="--animn: textAnimationFade">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="c-mm__frame"
+            style="--animn: kenburns-bottom-right; --index: 4"
+          >
+            <img class="c-mm__img" src="images/5.jpg" />
+            <figcaption class="c-mm__cap" data-caption="left">
+              <div class="cap__container">
+                <h1 style="--animn: titleAnimationFade">Five</h1>
+                <p style="--animn: textAnimationFade">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="c-mm__frame"
+            style="--animn: kenburns-bottom; --index: 5"
+          >
+            <img class="c-mm__img" src="images/6.jpg" />
+            <figcaption class="c-mm__cap" data-caption="bottom left">
+              <div class="cap__container">
+                <h1 style="--animn: titleAnimationFade">Six</h1>
+                <p style="--animn: textAnimationFade">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="c-mm__frame"
+            style="--animn: kenburns-bottom-left; --index: 6"
+          >
+            <img class="c-mm__img" src="images/7.png" />
+            <figcaption class="c-mm__cap" data-caption="center">
+              <div class="cap__container">
+                <h1 style="--animn: titleAnimationFade">Seven</h1>
+                <p style="--animn: textAnimationFade">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </figcaption>
+          </figure>
         </div>
       </div>
+
       <div class="container">
         <div class="text-center">
-          <h2>THIS IS A HEADING</h2>
+          <h1>THIS IS A HEADING</h1>
 
           <p class="text-big">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
